@@ -61,7 +61,94 @@ body {
   font-weight: 800;
 }
 
-.active .header,
 .active .input__list {
   display: none;
+}
+
+.weather {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.weather-active {
+  display: flex;
+}
+
+.weather img {
+  max-width: 130px;
+  margin-top: 30px;
+}
+
+.temp {
+  display: flex;
+  font-size: 70px;
+  font-weight: 500;
+}
+
+.numb {
+  font-weight: 800;
+}
+
+.deg {
+  font-size: 40px;
+  margin: 10px 5px 0 0;
+  display: block;
+}
+
+.temp__text {
+  font-size: 20px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+.uil-map-marker {
+  font-size: 22px;
+  margin-right: 5px;
+}
+
+.ditails {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--color3);
+}
+
+.column {
+  padding: 15px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column i {
+  font-size: 40px;
+  color: var(--color1);
+}
+
+.humidity {
+  border-left: 1px solid var(--color3);
+}
+
+.ditail .temp,
+.humidity span {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.ditail .deg {
+  font-size: 17px;
+  margin: 0;
+}
+
+.ditails p {
+  font-size: 14px;
 }
